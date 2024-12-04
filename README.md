@@ -5,8 +5,11 @@ The model currently has an accuracy of <b>61.53%</b> (rounded to 2dp) and mean a
 ### Success rate of predictions
 The model currently has a success rate of <b>100%</b> from three fixtures predicted <i>(28th Nov v Brazil, 1st Dec v Brazil, 4th Dec v Chinese Taipei)</i>.
 ## Project roadmap (future additions)
++ Add new fixtures as they are announced, and add results to the home and away win-loss records dataset used for training the model as matches are completed.
 + Expand the dataset to cover results over a longer period of time. Currently the plan is to expand the win-loss records for both home and away fixtures gradually, in periods of five years at a time.
 + Implement a tracker that compares outcomes predicted by the model, and actual Matildas match results in order to measure the overall accuracy of the model.
+## Patch notes
++ v1.0: Initial release of the Matildas Result Prediction SVR Model.
 ## Data sources
 + Datasets for win-loss records based on [<i>Women's International Football Results</i>](https://www.kaggle.com/datasets/martj42/womens-international-football-results) Kaggle dataset
 + [Matildas fixture information](https://matildas.com.au/fixtures)
